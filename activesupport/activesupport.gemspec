@@ -1,7 +1,3 @@
-require 'rake/testtask'
-require 'rake/rdoctask'
-require 'rake/gempackagetask'
-
 require File.join(File.dirname(__FILE__), 'lib', 'active_support', 'version')
 
 PKG_BUILD     = ENV['PKG_BUILD'] ? '.' + ENV['PKG_BUILD'] : ''
