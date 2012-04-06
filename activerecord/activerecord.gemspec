@@ -13,10 +13,6 @@ RUBY_FORGE_USER    = "webster132"
 
 MYSQL_DB_USER = 'rails'
 
-PKG_FILES = FileList[
-    "lib/**/*", "test/**/*", "examples/**/*", "doc/**/*", "[A-Z]*", "install.rb", "Rakefile"
-].exclude(/\bCVS\b|~$/)
-
 # Create compressed packages
 dist_dirs = [ "lib", "test", "examples" ]
 
